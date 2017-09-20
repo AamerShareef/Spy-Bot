@@ -47,6 +47,7 @@ Using Python and hostapd to:
 - Connect a suitable wireless card (Tp-Link/ALFA) to the Spybot which supports monitor-mode.
 - Ensure the Spy-Bot has a internet connection at boot (Example: Like a 3g connnection. you need to preconfigure it if you are deploying the SpyBot remotely)
 REFER WIKI FOR MORE DETAILS & SETTING UP.
+
 #Usage
 1. The Spybotmain.py is responsible for performing the wireless pentest objectives.
 It can be run on a remote command and control center, or on the Spybot.
@@ -57,6 +58,7 @@ Make the spybotmain.py as an executable and run with root privilages.
 2. Run the admin.py (as root) if performing objectives remotely.
 	chmod a+x admin.py
 	./admin.pygmaps
+
 3. Run navigation.py to control the motors of the Spy-Bot
 Use the arrow keys of 'a','s','d','w' to control directions. Press space key to stop.
 	chmod a+x navigation.py
