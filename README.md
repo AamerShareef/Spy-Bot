@@ -46,6 +46,8 @@ Using Python and hostapd to:
 - Connect a NMEA USB GPS device for retrieving geographical coordinates . (I have tested and used GlobSAT bu353, which is connected to tty0 by defualt. Change this value in gpstest.py if needed)
 - Connect a suitable wireless card (Tp-Link/ALFA) to the Spybot which supports monitor-mode.
 - Ensure the Spy-Bot has a internet connection at boot (Example: Like a 3g connnection. you need to preconfigure it if you are deploying the SpyBot remotely)
+USE A SUITABLE DATABASE VIEWER (SUCH AS SQLITE MANAGER FIREFOX PLUGIN) TO VIEW THE CONTENTS OF THE SPYBOT.DB DATABASE.
+SAMPLE FILES ARE PROVIDED.
 
 REFER WIKI PAGE FOR MORE DETAILS & SETTING UP.
 
