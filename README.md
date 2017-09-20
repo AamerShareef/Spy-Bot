@@ -7,7 +7,7 @@ The Spy-Bot framework contains tools developed and designed to gather geographic
 
 This wireless pentest framework is designed specifically to work efficiently with a raspberry-pi. The source files for performing wireless penetration testing objectives (present in the SpyBot Workspace) can also be used on a standalone individual system that runs Kali Linux or a similiar distro. The source codes have been designed and tested to work with a TP-Link WN-722N ( use SpyBotmian.py in the master branch ) and ALFA cards ( check SpyBotMain_alfa.py to work with other cards and alfa cards). 
 
-#OBJECTIVES OF THE SPY-BOT:
+# OBJECTIVES OF THE SPY-BOT:
 1. Deploying the Spy-Bot:
 - Remotely connecting to the Spy-Bot using Python. ( Using Yaler Services https://yaler.net/. Setup the Yaler services on the raspberry-pi for auto start by checking out the official documentation on the Yaler website. Place your yaler files in the Admin Workspace)
 - Remotely controlling and navigating the Spy-Bot using Python. ( Run the navigation.py on the raspberry-pi )
@@ -30,7 +30,7 @@ Using Python and hostapd to:
 - Hosting a rogue AP based on selection of available APs. 
 - Hosting Rogue APs in karma mode.
 
-#INSTALLATION
+# INSTALLATION
 1.Setting up the CLOUD System/Command&Control Center
 - The remote system/C2C System is used to connect & control the Spy-Bot remotely over the internet.
 - Place the contents of the Admin_Workspace onto the system that you wish to use as a Remote System.
@@ -46,9 +46,10 @@ Using Python and hostapd to:
 - Connect a NMEA USB GPS device for retrieving geographical coordinates . (I have tested and used GlobSAT bu353, which is connected to tty0 by defualt. Change this value in gpstest.py if needed)
 - Connect a suitable wireless card (Tp-Link/ALFA) to the Spybot which supports monitor-mode.
 - Ensure the Spy-Bot has a internet connection at boot (Example: Like a 3g connnection. you need to preconfigure it if you are deploying the SpyBot remotely)
-REFER WIKI FOR MORE DETAILS & SETTING UP.
 
-#Usage
+REFER WIKI PAGE FOR MORE DETAILS & SETTING UP.
+
+# Usage
 1. The Spybotmain.py is responsible for performing the wireless pentest objectives.
 It can be run on a remote command and control center, or on the Spybot.
 Make the spybotmain.py as an executable and run with root privilages.
@@ -63,9 +64,5 @@ Make the spybotmain.py as an executable and run with root privilages.
 Use the arrow keys of 'a','s','d','w' to control directions. Press space key to stop.
 	chmod a+x navigation.py
 	./navigation.py
-
-
-
-
 
 
