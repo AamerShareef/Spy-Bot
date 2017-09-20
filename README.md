@@ -38,6 +38,7 @@ Using Python and hostapd to:
 - The remote system must have aircrack-ng, optirun, bumblebeed and pyrit installed.
 - The remote system must be running a suitable OS such as Kali Linux. (Tested on Parrot OS).
 2. Setting up the Spy-Bot
+- Refer the wiki to set up the SPyBot motor controller, GPIO Connection and Circuit connections.
 - Make sure you have configured the Yaler services to run on boot on the raspberry pi (if using a remote connection over the internet)
 - Make sure you are using Parrot OS armhf or a similiar distro on the Raspberry pi.
 - Install the pygmaps module present in the dependencies folder.
@@ -46,6 +47,7 @@ Using Python and hostapd to:
 - Connect a NMEA USB GPS device for retrieving geographical coordinates . (I have tested and used GlobSAT bu353, which is connected to tty0 by defualt. Change this value in gpstest.py if needed)
 - Connect a suitable wireless card (Tp-Link/ALFA) to the Spybot which supports monitor-mode.
 - Ensure the Spy-Bot has a internet connection at boot (Example: Like a 3g connnection. you need to preconfigure it if you are deploying the SpyBot remotely)
+
 USE A SUITABLE DATABASE VIEWER (SUCH AS SQLITE MANAGER FIREFOX PLUGIN) TO VIEW THE CONTENTS OF THE SPYBOT.DB DATABASE.
 SAMPLE FILES ARE PROVIDED.
 
