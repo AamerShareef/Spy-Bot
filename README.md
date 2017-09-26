@@ -59,21 +59,19 @@ It can be run on a remote command and control center, or on the Spybot.
 Make the spybotmain.py as an executable and run with root privilages.
 
 ```chmod a+x SpyBotMain.py
-
 ./Spybotmain.py <wireless-interface name>```
 
 example: ./Spybotmain.py wlan0
 
 2. Run the admin.py (as root) if performing objectives remotely.
-```chmod a+x admin.py
 
+```chmod a+x admin.py
 ./admin.py```
 
 3. Run navigation.py to control the motors of the Spy-Bot
 Use the arrow keys of 'a','s','d','w' to control directions. Press space key to stop.
 
 ```chmod a+x navigation.py
-
 ./navigation.py ```
 
 
