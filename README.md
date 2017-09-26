@@ -58,8 +58,8 @@ REFER WIKI PAGE FOR MORE DETAILS & SETTING UP.
 It can be run on a remote command and control center, or on the Spybot.
 Make the spybotmain.py as an executable and run with root privilages.
 
-- chmod a+x SpyBotMain.py
-- ./Spybotmain.py <wireless-interface name> example: ./Spybotmain.py wlan0
+''' chmod a+x SpyBotMain.py
+ ./Spybotmain.py <wireless-interface name> example: ./Spybotmain.py wlan0 '''
 
 2. Run the admin.py (as root) if performing objectives remotely.
 - chmod a+x admin.py
