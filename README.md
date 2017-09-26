@@ -58,7 +58,8 @@ REFER WIKI PAGE FOR MORE DETAILS & SETTING UP.
 It can be run on a remote command and control center, or on the Spybot.
 Make the spybotmain.py as an executable and run with root privilages.
 
-```chmod a+x SpyBotMain.py```
+```chmod a+x SpyBotMain.py
+
 ```./Spybotmain.py <wireless-interface name>```
 
 example: ./Spybotmain.py wlan0
@@ -66,12 +67,25 @@ example: ./Spybotmain.py wlan0
 2. Run the admin.py (as root) if performing objectives remotely.
 
 ```chmod a+x admin.py```
+
 ```./admin.py```
 
 3. Run navigation.py to control the motors of the Spy-Bot
 Use the arrow keys of 'a','s','d','w' to control directions. Press space key to stop.
 
 ```chmod a+x navigation.py```
+
 ```./navigation.py ```
+# LICENSE 
+
+MIT License
+
+Copyright (c) 2017 Aamer Shareef
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
