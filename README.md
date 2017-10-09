@@ -3,7 +3,6 @@ Sit back in your room and pentest wireless networks anywhere in the world over c
 
 The Spy-Bot is a robot based on a Raspberry-Pi build using Python, which can navigate and perform wireless penetration testing over the cloud. The Spy-Bot works with a Spy-Bot framework, which constitutes the source code and files needed to perform wireless penetration testing objectives using Python Scripts.
 
-![ScreenShot](/Screenshots_Git/Screenshot03.png)
 
 ![ScreenShot](/Screenshots_Git/Screenshot01.JPG)
 
@@ -12,6 +11,8 @@ The Spy-Bot is a robot based on a Raspberry-Pi build using Python, which can nav
 The SpyBot framework provides a convenient approach to perform RED-TEAM exercises aimed to perform penetration tests on wireless networks in a particular region. The framework contains remote admin scripts used by a remote admin (Admin WorkSpace) and Spy-Bot scripts used on the Raspbery-Pi (SpyBot Workspace) to perform remote wireless penetration testing over cloud. 
 
 The Spy-Bot framework contains tools developed and designed to gather geographical information regarding wireless access points, detect wifi signal leakage by plotting geo-coordinates of a wireless AP packets on google maps and perform several other attack objectives. The Spy-Bot framework sets up a database which stores information related to the wireless pentests and audits performed using the Spy-Bot. 
+
+![ScreenShot](/Screenshots_Git/Screenshot03.png)
 
 This wireless pentest framework is designed specifically to work efficiently with a raspberry-pi. The source files for performing wireless penetration testing objectives (present in the SpyBot Workspace) can also be used on a standalone individual system that runs Kali Linux or a similiar distro. The source codes have been designed and tested to work with a TP-Link WN-722N ( use SpyBotmian.py in the master branch ) and ALFA cards ( check SpyBotMain_alfa.py to work with other cards and alfa cards). 
 
@@ -139,7 +140,7 @@ When a network device wants to connect to a known saved wireless network, it sen
 
 #### 6. Rogue access points and obtaining challenge-response pairs for WPA2-Enterprise networks
 
-![ScreenShot](/Screenshots_Git/Screenshot10.tmp)
+![ScreenShot](/Screenshots_Git/Screeshot10.tmp)
 
 Launch the rogue ap launcher in the spybotmain.py to create rogue access points:
 - dynamically by selecting the strongest/weakest access point.
@@ -179,6 +180,7 @@ Networks and client probes found &  collected during the recon by the spybot are
 ### 9. GPU crack the handshake using pyrit 
 
 ![ScreenShot](/Screenshots_Git/Screenshot 11b.png)
+
 
 Launch the GPU password attack using the admin.py on the cloud server after retreiving the sniffed handhshakes from the SpyBot.
 
