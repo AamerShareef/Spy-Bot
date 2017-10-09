@@ -149,7 +149,7 @@ Launch the rogue ap launcher in the spybotmain.py to create rogue access points:
 wait for victims to connect and enter credentials.(works in WPA-enterprise networks that allow authentication without certificate validation )
 Launch ASLEAP functions using the admin.py AFTER retreiving the remote files from the remote spybot onto the c2c/cloud server.
 
-![ScreenShot](/Screenshots_Git/Screenshot15.png)
+![ScreenShot](/Screenshots_Git/Screenshot11.tmp)
 
 
 #### 7. Deauth selective/all clients and force a WPA handshake
@@ -171,9 +171,10 @@ Prepare files to send in the spybotmain.py file. Retrieve the files using the ad
 View the contents of the spybot.db database using a suitable database viewer (like firefox SQL plugin)
 
 ![ScreenShot](/Screenshots_Git/Screenshot16a.png)
+
 ![ScreenShot](/Screenshots_Git/Screenshot16b.png)
 
-Networks found and client probes collected during the recon by the spybot are stored in the spybot.db database.
+Networks and client probes found &  collected during the recon by the spybot are stored in the _spybot.db_ database.
 
 ### 9. GPU crack the handshake using pyrit 
 
