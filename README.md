@@ -43,6 +43,8 @@ Using Python and hostapd to:
 - Hosting a rogue AP based on selection of available APs. 
 - Hosting Rogue APs in karma mode.
 
+NEW FEATURES WILL BE ADDED SOON :) ! 
+
 # INSTALLATION
 #### 1.Setting up the CLOUD System/Command&Control Center
 - The remote system/C2C System is used to connect & control the Spy-Bot remotely over the internet.
@@ -195,6 +197,8 @@ Similiar operations for cracking WEP networks is also provided by the framework.
 2. Settign up optirun, nvidia & pyrit setup on Kali Linux: https://www.pcsuggest.com/install-latest-pyrit-0-4-with-cuda-in-kali-linux-debian/
 3. Setting up asleap: https://github.com/joswr1ght/asleap
 4. Setting up hostapd: https://w1.fi/hostapd/ (copy hostapd executable in the proper hostapd directory)
+
+
 
 # LICENSE 
 
