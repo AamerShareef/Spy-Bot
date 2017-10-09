@@ -179,7 +179,7 @@ Networks and client probes found &  collected during the recon by the spybot are
 
 ### 9. GPU crack the handshake using pyrit 
 
-![ScreenShot](/Screenshots_Git/Screenshot 11b.png)
+![ScreenShot](/Screenshots_Git/Screenshot11b.png)
 
 
 Launch the GPU password attack using the admin.py on the cloud server after retreiving the sniffed handhshakes from the SpyBot.
