@@ -146,7 +146,10 @@ Launch the rogue ap launcher in the spybotmain.py to create rogue access points:
 - by defining a custom rogue access point
 - hosting rogue access points in karma mode.
 
-wait for victims to connect and enter credentials. (works in WPA-enterprise networks that allow authentication without certificate validation )
+wait for victims to connect and enter credentials.(works in WPA-enterprise networks that allow authentication without certificate validation )
+Launch ASLEAP functions using the admin.py AFTER retreiving the remote files from the remote spybot onto the c2c/cloud server.
+
+![ScreenShot](/Screenshots_Git/Screenshot15.png)
 
 
 #### 7. Deauth selective/all clients and force a WPA handshake
