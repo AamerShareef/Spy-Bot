@@ -26,13 +26,16 @@ This wireless pentest framework is designed specifically to work efficiently wit
 - Detect WPS status of APs.
 - Force Handshake Capturing while Deauthenticating using Python & Scapy.
 - GPU accelerated PSK cracking using Pyrit using custom Wordlists. ( Place your Wordlists in the Admin Workspace Directory. Check out the basic layout figures to setup the Admin Workspace  )
+
 #### 3. Testing Attacks against WEP Networks
 - Passively Deauthenticate connected clients to an AP using Python & Scapy.
 - Collect AP data packets using Python & Scapy.
 - Acquire WEP Network Key.
+
 #### 4. Testing Attacks against Authentication Protocols 
 - Using Python to leverage vulnerabilities in EAP-LEAP/PEAP/TTLS/MD5 to obtain challenge & response pairs during misconfigured authentications.
 - Using ASLEAP, EAPMD5PASS and custom wordlists to perform dictionary brute-forcing to acquire weak passwords used by clients.
+
 #### 5. Dynamically Hosting Rogue AP’s for victim clients 
 Using Python and hostapd to:
 - Hosting a rogue AP (Open networks or WPA-Enterprise Networks) based on the Access points in a region or creating a custom AP.
@@ -47,6 +50,7 @@ Using Python and hostapd to:
 - If you are SSHing into the Spy-Bot remotely using Yaler, make sure to add the Yaler relay node in the admin.py.
 - The remote system must have aircrack-ng, optirun, bumblebeed and pyrit installed.
 - The remote system must be running a suitable OS such as Kali Linux. (Tested on Parrot OS).
+
 #### 2. Setting up the Spy-Bot
 - Refer the wiki to set up the SPyBot motor controller, GPIO Connection and Circuit connections.
 - Make sure you have configured the Yaler services to run on boot on the raspberry pi (if using a remote connection over the internet)
@@ -159,7 +163,6 @@ Launch ASLEAP functions using the admin.py AFTER retreiving the remote files fro
 
 Launch the wpa handshake capture in the spybotmain.py to sniff for EAPOL messages.
 
-
 ![ScreenShot](/Screenshots_Git/Screenshot14.png)
 
 Launch the deauth launcher in the spybotmain.py to deauthenticate all the clients or to select multiple clients to deauthenticate the clients. 
@@ -178,13 +181,21 @@ View the contents of the spybot.db database using a suitable database viewer (li
 Networks and client probes found &  collected during the recon by the spybot are stored in the _spybot.db_ database.
 
 ### 9. GPU crack the handshake using pyrit 
+Launch the GPU password attack using the admin.py on the cloud server after retreiving the sniffed handhshakes from the SpyBot.
 
 ![ScreenShot](/Screenshots_Git/Screenshot11b.png)
-
 
 Launch the GPU password attack using the admin.py on the cloud server after retreiving the sniffed handhshakes from the SpyBot.
 
 Similiar operations for cracking WEP networks is also provided by the framework.
+
+
+# Links
+1. Yaler Services & seeting up yaler for remote access : https://www.yaler.net/
+2. Settign up optirun, nvidia & pyrit setup on Kali Linux: https://www.pcsuggest.com/install-latest-pyrit-0-4-with-cuda-in-kali-linux-debian/
+3. Setting up asleap: https://github.com/joswr1ght/asleap
+4. Setting up hostapd: https://w1.fi/hostapd/ (copy hostapd executable in the proper hostapd directory)
+
 # LICENSE 
 
 MIT License
@@ -196,10 +207,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-# Links
-1. Yaler Services & seeting up yaler for remote access : https://www.yaler.net/
-2. Settign up optirun, nvidia & pyrit setup on Kali Linux: https://www.pcsuggest.com/install-latest-pyrit-0-4-with-cuda-in-kali-linux-debian/
-3. Setting up asleap: https://github.com/joswr1ght/asleap
-4. Setting up hostapd: https://w1.fi/hostapd/ (copy hostapd executable in the proper hostapd directory)
 
