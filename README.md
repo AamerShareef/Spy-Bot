@@ -139,7 +139,7 @@ When a network device wants to connect to a known saved wireless network, it sen
 
 #### 6. Rogue access points and obtaining challenge-response pairs for WPA2-Enterprise networks
 
-![ScreenShot](/Screenshots_Git/Screenshot15.png)
+![ScreenShot](/Screenshots_Git/Screenshot10.tmp)
 
 Launch the rogue ap launcher in the spybotmain.py to create rogue access points:
 - dynamically by selecting the strongest/weakest access point.
