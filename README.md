@@ -1,5 +1,6 @@
 # Spy-Bot: A Cloud Pentesting Approach
 The Spy-Bot is a robot based on a Raspberry-Pi build using Python, which can navigate and perform wireless penetration testing over the cloud. The Spy-Bot works with a Spy-Bot framework, which constitutes the source code and files needed to perform wireless penetration testing objectives using Python Scripts.
+![ScreenShot](/Screenshots_Git/Screenshot01.JPG)
 
 The SpyBot framework provides a convenient approach to perform RED-TEAM exercises aimed to perform penetration tests on wireless networks in a particular region. The framework contains remote admin scripts used by a remote admin (Admin WorkSpace) and Spy-Bot scripts used on the Raspbery-Pi (SpyBot Workspace) to perform remote wireless penetration testing over cloud. 
 
