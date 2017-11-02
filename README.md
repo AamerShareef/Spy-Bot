@@ -193,8 +193,8 @@ Similiar operations for cracking WEP networks is also provided by the framework.
 
 
 # Links
-1. Yaler Services & seeting up yaler for remote access : https://www.yaler.net/
-2. Settign up optirun, nvidia & pyrit setup on Kali Linux: https://www.pcsuggest.com/install-latest-pyrit-0-4-with-cuda-in-kali-linux-debian/
+1. Yaler Services & setting up yaler for remote access : https://www.yaler.net/
+2. Setting up optirun, nvidia & pyrit setup on Kali Linux: https://www.pcsuggest.com/install-latest-pyrit-0-4-with-cuda-in-kali-linux-debian/
 3. Setting up asleap: https://github.com/joswr1ght/asleap
 4. Setting up hostapd: https://w1.fi/hostapd/ (copy hostapd executable in the proper hostapd directory)
 
